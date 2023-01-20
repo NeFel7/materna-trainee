@@ -2,6 +2,6 @@ package candyLord;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Thies ist doof!");
+//        System.out.println("Thies ist doof!");
     }
 }

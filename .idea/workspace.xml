@@ -5,27 +5,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e0fb414-261b-4650-a842-7b2288a5202e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/candyLord/Candy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/candyLord/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/candyLord/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/candyLord/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/7/67426fe38526ffd10868370381b12c3bddaf61cb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/b/6b87f6e2b2b2066889459ac4d5f79af6effa005d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9df2487d509b9b80596bf8acfcf3b7e0c54d15ba" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a23404e3f2e64804d9f915d2a6d0e0feb97844f7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ede2fab6beac77308b49584affde690d3387e682" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9d9c55bc61c4009e61df5fb9ccb195f6d330d2e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/candyLord/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/candyLord/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/candyLord/Neighborhood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/candyLord/NoEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/candyLord/PriceDecrease.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/candyLord/Robbery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/dataStructures/DatingCompatibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/dataStructures/ImportantGossip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/dataStructures/TrimNonGrowingList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/mavenExercise/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/streams/GenerateArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/streams/Persons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/streams/Streams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/streams/createPyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/threads/Pirate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/threads/generateUUID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/threads/testingExecutors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/stream.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/Candylord.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uml/Radiostation UML.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/candyLord/Candy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/candyLord/Candy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/candyLord/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/candyLord/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/candyLord/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/candyLord/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/candyLord/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/candyLord/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="UML Sequence" />
+        <option value="UML Class" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/uml/Candylord.puml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="checksumPolicy" value="FAIL" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
@@ -40,11 +85,105 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultPlantUmlFileTemplate": "UML Class",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/fnewrzel/Downloads/plantuml4idea.zip",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="candyLord" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fnewrzel\IdeaProjects\materna-trainee\uml" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="example.threads" />
+      <recent name="example.streams" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Server">
+    <configuration name="GenerateArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.streams.GenerateArray" />
+      <module name="materna-trainee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pirate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tutego.insel.concurrent.Pirate" />
+      <module name="materna-trainee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tutego.insel.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.mavenExercise.Server" />
+      <module name="materna-trainee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.mavenExercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generateUUID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.threads.generateUUID" />
+      <module name="materna-trainee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testingExecutors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.threads.testingExecutors" />
+      <module name="materna-trainee" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.threads.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Pirate" />
+        <item itemvalue="Application.generateUUID" />
+        <item itemvalue="Application.testingExecutors" />
+        <item itemvalue="Application.GenerateArray" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,5 +194,9 @@
       <updated>1671548572585</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

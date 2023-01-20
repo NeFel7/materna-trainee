@@ -1,0 +1,158 @@
+@startuml
+'skinparam classAttributeIconSize 0
+
+left to right direction
+
+
+title Candylord UML-Diagramm
+
+class Main {
++ {static} main() :void
+}
+
+class Game {
+- day :int
+--
++ Game()
+__
++ getDay() :int
++ proceedToNextDay() :void
+}
+
+class Player {
+- cash :int
+- debt :int
+- deposit :int
+- capacity :int
+--
+Player(cash :int, capacity :int, debt :int, deposit :int)
+__
++ getLocation() :Location
++ getCash() :int
++ getDebt() :int
++ getDeposit() :int
++ getCapacity() :int
+
++ setLocation(location :Location) :void
++ setCash(cash :int) :void
++ setDebt(debt :int) :void
++ setDeposit(deposit :int) :void
++ setCapacity(capacity :int) :void
+
++ makeMove() :void
++ buyCandy(candy :Candy, amount :int) :void
++ sellCandy(candy :Candy, amount :int) :void
++ travel(nextNeighborhood :Neighborhood) :void
++ lendMoney(amount :int) :void
++ repayMoney(amount :int) :void
++ depositMoney(amount :int) :void
++ withdrawMoney(amount :int) :void
+}
+
+class Candy {
+- name :String {final}
+- Count :int
+- minprice :int {final}
+- maxPrice :int {final}
+- currentPrice :int
+--
++ Candy(name :String, minprice :int, maxPrice :int)
+__
++ calculateCurrentPrice(neighborhood :Neighborhood) :void
++ increaseCountBy(amount :int) :void
++ reduceCountBy(amount :int) :void
+
++ getName() :String
++ getAmount() :int
++ getCurrentPrice() :int
+}
+
+class City {
+- travelCostPerDistance: Double
+--
++ City(travelCostPerDistance)
+__
++ getNeighborhoods() :Neighborhood[]
++ calculateTravelCost(neighborhood :Neighborhood) :int
+}
+
+class Neighborhood {
+- name :String {final}
+- candyPriceAdjustment :HashMap<Candy, Double>
+- coordinates: Point
+--
++ Neighborhood(coordinates :Point, name :String)
+__
++ changePriceAdjustment(Candy, Double) :Neighborhood
++ distanceTo(neighborhood :Neighborhood) :Double
++ getName() :String
+}
+
+class RandomGameEvent {
+- RandomGameEvent()
+__
++ nextEvent() :Event {static}
+}
+
+abstract class Event {
+abstract process(Player player) :void
+}
+
+class NoEvent {
++ process(Player player) :void {override}
+}
+
+abstract class Offer {
+}
+
+class FindCandy {
++ process(Player player) :void {override}
+}
+
+class Robbery {
++ process(Player player) :void {override}
+}
+
+class PriceDecrease {
++ process(Player player) :void {override}
+}
+
+class PriceIncrease {
++ process(Player player) :void {override}
+}
+
+class BiggerBag {
++ process(Player player) :void {override}
+}
+class Bargain {
++ process(Player player) :void {override}
+}
+class Advertisement {
++ process(Player player) :void {override}
+}
+
+Main -> Game
+
+Game *-- "1" Player
+Player o-- "8" Candy
+Player o-- "1" Neighborhood
+Game *-- "1" City
+City o-left- "1" Neighborhood
+Candy .right.> Neighborhood
+
+
+Event <|-- NoEvent
+Event <|-- FindCandy
+Event <|-- Robbery
+Event <|-- PriceDecrease
+Event <|-- PriceIncrease
+Event <|-- Offer
+
+Offer <|-- BiggerBag
+Offer <|-- Bargain
+Offer <|-- Advertisement
+
+RandomGameEvent <.left Game
+RandomGameEvent .> Event
+
+@enduml

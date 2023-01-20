@@ -1,30 +1,53 @@
 package candyLord;
 
 public class Candy {
-    int amount;
-    int price;
-    int minPrice;
-    int maxPrice;
+    private final String name;
+    private int count;
+    private int currentPrice;
+    private final int minPrice;
+    private final int maxPrice;
 
-    public void Candy (int min, int max){
-        minPrice = min;
-        maxPrice = max;
-        amount = 0;
+    public Candy(String name, int minPrice, int maxPrice) {
+        this.name = name;
+        this.minPrice = minPrice;
+        this.maxPrice = maxPrice;
+
+    }
+    public void calculateCurrentPrice(Neighborhood neighborhood){
+
+        int newPrice = (int) Math.round(currentPrice * neighborhood.getPriceList().get(this));
+
+        if(newPrice < minPrice || newPrice > maxPrice){
+            calculateCurrentPrice(neighborhood);
+        }
+        currentPrice = newPrice;
     }
 
-    public int getAmount() {
-        return amount;
+    public void increaseAmountBy(Integer amount){
+        if(amount < 0){
+            throw new IllegalArgumentException("Negative parameters are not accepted.");
+        }
+        count += amount;
+    }
+    public void decreaseAmountBy(Integer amount){
+        if(amount < 0){
+            throw new IllegalArgumentException("Negative parameters are not accepted.");
+        }
+        if((count - amount) < 0 ){
+            throw new IllegalArgumentException("Your amount can´t decrease below zero.");
+        }
+        count -= amount;
     }
 
-    public void setAmount(int amount) {
-        this.amount = amount;
+    public void setCount(int count) {
+        this.count = count;
     }
 
-    public int getPrice() {
-        return price;
+    public int getCount() {
+        return count;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
+    public int getCurrentPrice() {
+        return currentPrice;
     }
 }

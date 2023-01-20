@@ -1,0 +1,46 @@
+@startuml
+
+title Radiostation UML-Diagramm
+
+class Radiostation {}
+
+class Mitarbeiter {
+vorname: String
+nachname: String
+personalNummer: String
+durchwahl: String
+}
+
+class Moderator extends Mitarbeiter{}
+
+class Redakteur extends Mitarbeiter{}
+
+class Chefredakteur extends Redakteur{
+mobieltelefonNummer: String
+}
+
+class Radiosendung {
+dauer: double
+thema: String
+}
+
+class Schema {}
+
+class WochenendSchema extends Schema {}
+
+class WochentagsSchema extends Schema {}
+
+
+Radiostation "1" -left-> "*" Mitarbeiter
+Radiostation "*" -down-> "1" WochenendSchema
+Radiostation "*" -down-> "1" WochentagsSchema
+Radiostation "*" -down-> "36..*" Radiosendung
+
+Radiosendung "*" -up- "*" Redakteur
+Radiosendung "1..*" -left- "1" Chefredakteur
+Radiosendung "*" -down- "0..2" Moderator
+
+WochenendSchema o-- "16" Radiosendung
+WochentagsSchema o-- "20" Radiosendung
+
+@enduml
