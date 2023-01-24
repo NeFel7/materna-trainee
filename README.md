@@ -1,5 +1,5 @@
 # Materna Trainee Program
-___
+
 This Repository contains files of the following types, created during the Materna Java trainee programm:
 
 * Java source code in ./src/
