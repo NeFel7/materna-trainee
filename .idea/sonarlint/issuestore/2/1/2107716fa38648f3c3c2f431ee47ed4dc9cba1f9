@@ -1,0 +1,15 @@
+
+~
+java:S2629$"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(―€Ότύÿÿÿÿ8ƒ£τά0
+~
+java:S2629-"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(―€Ότύÿÿÿÿ8ƒ£τά0
+~
+java:S26296"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(―€Ότύÿÿÿÿ8ƒ£τά0
+~
+java:S2629D"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(―€Ότύÿÿÿÿ8 ƒ£τά0
+Ο
+java:S1598"¬This file "Pirate.java" should be located in "com\tutego\insel\concurrent" directory, not in "C:\Users\fnewrzel\IdeaProjects\materna-trainee\src\main\java\example\threads".(ΝΝύÿÿÿÿ8΅ƒ£τά0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¦ίύÿÿÿÿ8βƒ£τά0
+{
+java:S2142:"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ύΎ8ρƒ£τά0
+E	java:S108:")Either remove or fill this block of code.(”ύΎ8„£τά0
