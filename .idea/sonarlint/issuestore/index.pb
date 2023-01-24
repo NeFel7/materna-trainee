@@ -1,9 +1,6 @@
 
 n
 >src/main/java/example/ownClassesAndInterfaces/Application.java,6\b\6b87f6e2b2b2066889459ac4d5f79af6effa005d
-:
-
-.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 I
 uml/Radiostation UML.puml,f\9\f9d9c55bc61c4009e61df5fb9ccb195f6d330d2e
 Z
