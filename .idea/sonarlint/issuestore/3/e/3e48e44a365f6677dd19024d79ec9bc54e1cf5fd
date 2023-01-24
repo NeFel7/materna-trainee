@@ -1,20 +1,0 @@
-
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(†ß³œ8æ»¤ÔÜ0
-“
-java:S1130
-"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78ÚÊÌÔÜ0
-H
-java:S2201!"+The return value of "collect" must be used.(ª™¨¹8ÛÊÌÔÜ0
-o
-java:S6204!"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8ÜÊÌÔÜ0
->
-java:S3864 "!Remove this use of "Stream.peek".(é¾•»8»´ÌÔÜ0
-C
-java:S3864"!Remove this use of "Stream.peek".(¼õõƒùÿÿÿÿ8¼´ÌÔÜ0
-X	java:S125"<This block of commented-out lines of code should be removed.(ñ›—à8«ˆÌÔÜ0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¼õõƒùÿÿÿÿ8šºËÔÜ0
-U	java:S106 "9Replace this use of System.out or System.err by a logger.(é¾•»8›ºËÔÜ0
-c
-java:S1128"ARemove this unused import 'java.util.concurrent.ExecutorService'.(æ÷–£ùÿÿÿÿ8áÊÌÔÜ0
-]
-java:S1128";Remove this unused import 'java.util.concurrent.Executors'.(äåÒÛÿÿÿÿÿ8áÊÌÔÜ0

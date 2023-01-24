@@ -1,7 +1,0 @@
-
-`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-Z
-java:S2095"DUse try-with-resources or close this "Stream" in a "finally" clause.(ìÆÂô
-W
-java:S1075	"ARefactor your code to get this URI from a customizable parameter.(×Ã­ú
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ô©âşÿÿÿÿ

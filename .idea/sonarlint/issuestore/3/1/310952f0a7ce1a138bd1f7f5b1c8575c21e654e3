@@ -1,26 +1,0 @@
-
-`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-`	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-`	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
-_
-java:S2095"DUse try-with-resources or close this "Stream" in a "finally" clause.(ıâòàıÿÿÿÿ
-_
-java:S2095"DUse try-with-resources or close this "Stream" in a "finally" clause.(Êì”Êùÿÿÿÿ
-Z
-java:S2095#"DUse try-with-resources or close this "Stream" in a "finally" clause.(»ÑÃò
-c
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ïğ¢°ûÿÿÿÿ8£ê³ÍÜ0
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Êì”Êùÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ıâòàıÿÿÿÿ
-N	java:S106#"9Replace this use of System.out or System.err by a logger.(»ÑÃò
-N	java:S106,"9Replace this use of System.out or System.err by a logger.(ğÀÛì
-]	java:S1256"<This block of commented-out lines of code should be removed.(€µüÿÿÿÿ8ˆ„ÑËÜ0
-Q
-java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8¢ñÕËÜ0
-K
-java:S1144".Remove this unused private "joinLines" method.(¬ñ¼€8Š„ÑËÜ0
-M
-java:S1144!"2Remove this unused private "findLineCount" method.(“¯ÙÊÿÿÿÿÿ
-I
-java:S1144*"3Remove this unused private "isThereANumber" method.(§ú²‹
